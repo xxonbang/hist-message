@@ -18,7 +18,7 @@ export const Home = () => {
   return (
     <div className="home">
       <div className="content-wrapper">
-        <img className="mainImage" src={mainImage} alt="main-image" />
+        <img className="mainImage" src={mainImage} alt="main" />
         <div>
           <Button variant="success">서비스 바로 시작하기</Button>{' '}
         </div>
@@ -58,11 +58,11 @@ export const Home = () => {
           </Carousel>
         </div>
 
-        <img src={image1} alt="image1" />
-        <img src={image2} alt="image2" />
-        <img src={image3} alt="image3" />
-        <img src={image4} alt="image4" />
-        <img src={image5} alt="image5" />
+        <img src={image1} alt="1" />
+        <img src={image2} alt="2" />
+        <img src={image3} alt="3" />
+        <img src={image4} alt="4" />
+        <img src={image5} alt="5" />
       </div>
       <Footer />
     </div>
