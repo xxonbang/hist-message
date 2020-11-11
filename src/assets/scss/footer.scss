@@ -1,0 +1,30 @@
+.footer {
+  height: 120px;
+  margin-top: - 120px;
+  background-color: #282c34;
+  border-top: 1px solid white;
+  color: #ffffff;
+
+  .contents-wrapper {
+    margin: 0.5rem 16rem 0.5rem 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .company-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .links {
+      span {
+        margin: 2rem;
+      }
+      span:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+}
