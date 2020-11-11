@@ -1,0 +1,17 @@
+.content-wrapper {
+  min-height: 100vh;
+
+  .mainImage {
+    width: 100%;
+  }
+
+  button {
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  .carousel {
+    background-color: #282c34;
+    margin-bottom: 2rem;
+  }
+}

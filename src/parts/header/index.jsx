@@ -1,8 +1,11 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown, Button, Form, FormControl } from 'react-bootstrap'
 
+import '../../assets/scss/header.scss'
+
 export const Header = () => {
     return (
+      <div className="header">
         <Navbar collapseOnSelect fixed="top" expand="lg" bg="light" variant="light">
             <Navbar.Brand href="#home">HIST Messaging Service</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,5 +31,6 @@ export const Header = () => {
                 </Form>
             </Navbar.Collapse>
         </Navbar>
+      </div>
     )
 }

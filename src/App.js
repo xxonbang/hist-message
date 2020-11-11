@@ -1,16 +1,18 @@
 import React from "react";
-import logo from './logo.svg';
+import { BrowserRouter , Route} from 'react-router-dom'
+
 import './App.css';
 
 import {Header} from './parts/header'
-import {Footer} from './parts/footer'
+import {Home} from './pages/home/index'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <div className="main-wrapper">123</div>
-      <Footer/>
+      <BrowserRouter>
+        <Route path="/" component={Home} exact />
+      </BrowserRouter>
     </div>
   );
 }

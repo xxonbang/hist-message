@@ -1,0 +1,16 @@
+.content-wrapper {
+  min-height: 100vh;
+}
+.content-wrapper .mainImage {
+  width: 100%;
+}
+.content-wrapper button {
+  margin: 2rem;
+  font-size: 2rem;
+}
+.content-wrapper .carousel {
+  background-color: #282c34;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=home.css.map */
