@@ -6,11 +6,11 @@ import '../../assets/scss/header.scss'
 export const Header = () => {
     return (
       <div className="header">
-        <Navbar collapseOnSelect fixed="top" expand="lg" bg="light" variant="light">
-            <Navbar.Brand href="#home">HIST Messaging Service</Navbar.Brand>
+        <Navbar className="navbar" collapseOnSelect fixed="top" expand="lg" bg="light" variant="light">
+            <Navbar.Brand href="#home" className="navbar-logo">HIST Messaging Service</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="mr-auto navbar-menus">
                     <NavDropdown title="서비스 소개" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">문자</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">선거문자</NavDropdown.Item>

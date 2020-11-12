@@ -12,6 +12,8 @@
 /*    monospace;*/
 /*}*/
 
+
+
 /*reset CSS (Normalize.css 적용_2020.11.11)*/
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -22,8 +24,10 @@
  *    user zoom.
  */
 
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 html {
-  font-family: sans-serif; /* 1 */
+  /*font-family: sans-serif; !* 1 *!*/
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -33,6 +37,7 @@ html {
  */
 
 body {
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif", serif !Important;
   margin: 0;
 }
 

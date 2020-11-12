@@ -1,5 +1,14 @@
 .header {
   border-bottom: 1px solid #C8CED3;
 }
+.header .navbar {
+  height: 80px;
+}
+.header .navbar-logo {
+  font-size: 24px;
+}
+.header .navbar-menus {
+  margin-left: 40px;
+}
 
 /*# sourceMappingURL=header.css.map */

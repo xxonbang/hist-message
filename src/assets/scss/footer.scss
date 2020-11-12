@@ -1,14 +1,16 @@
 .footer {
-  height: 120px;
+  height: 160px;
   background-color: #282c34;
   border-top: 1px solid white;
   color: #ffffff;
+  display: flex;
 
   .contents-wrapper {
     margin: 0.5rem 16rem 0.5rem 16rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 
     .company-info {
       display: flex;
