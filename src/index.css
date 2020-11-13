@@ -38,7 +38,6 @@
 
 body {
   font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif", serif !Important;
-  width: fit-content;
   margin: 0;
 }
 
@@ -203,9 +202,11 @@ body {
 /* * Remove border when inside `a` element in IE 8/9/10.*/
 /* *!*/
 
-/*img {*/
-/*  border: 0;*/
-/*}*/
+img {
+  border: 0;
+  width: 100%;
+  /*height: auto;*/
+}
 
 /*!***/
 /* * Correct overflow not hidden in IE 9/10/11.*/
