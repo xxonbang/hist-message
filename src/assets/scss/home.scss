@@ -1,12 +1,14 @@
+@import "mixin";
+
 .home {
   margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .content-wrapper {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .mainImage {
     width: 100%;
@@ -17,8 +19,17 @@
     font-size: 2rem;
   }
 
-  .carousel {
+  .carousel-wrapper {
+    width: 80%;
     background-color: #282c34;
     margin-bottom: 2rem;
+
+    @include phone {
+      height: 200px;
+    }
+
+    .carousel-items {
+      height: 680px;
+    }
   }
 }

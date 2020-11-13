@@ -23,9 +23,9 @@ export const Home = () => {
           <Button variant="success">서비스 바로 시작하기</Button>{' '}
         </div>
 
-        <div className="carousel">
-          <Carousel>
-            <Carousel.Item>
+        <div className="carousel-wrapper">
+          <Carousel className="carousel">
+            <Carousel.Item className="carousel-items">
               <img
                 src={carousel1}
                 alt="First slide"
@@ -35,7 +35,7 @@ export const Home = () => {
                 <p>description</p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="carousel-items">
               <img
                 src={carousel2}
                 alt="second slide"
@@ -45,7 +45,7 @@ export const Home = () => {
                 <p>description</p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="carousel-items">
               <img
                 src={carousel3}
                 alt="Third slide"

@@ -1,3 +1,5 @@
+@import "mixin";
+
 .footer {
   height: 160px;
   width: 100%;
@@ -6,6 +8,12 @@
   color: #ffffff;
   display: flex;
 
+  @include phone {
+    width: 375px;
+    height: 120px;
+    font-size: 4px;
+  }
+
   .contents-wrapper {
     margin: 0.5rem 16rem 0.5rem 16rem;
     display: flex;
@@ -13,10 +21,18 @@
     justify-content: space-between;
     width: 100%;
 
+    @include phone {
+      margin: 0;
+    }
+
     .company-info {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+
+      @include phone {
+        margin-right: 4px;
+      }
 
       .help-center {
         span {
@@ -27,8 +43,18 @@
     }
 
     .links {
+      @include phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4px;
+      }
+
       span {
         margin: 2rem;
+
+        @include phone {
+          margin: 0;
+        }
       }
       span:hover {
         cursor: pointer;
