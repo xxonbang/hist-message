@@ -11,7 +11,7 @@
   @include phone {
     width: 375px;
     height: 120px;
-    font-size: 4px;
+    font-size: 12px;
   }
 
   .contents-wrapper {
@@ -31,13 +31,17 @@
       align-items: flex-end;
 
       @include phone {
-        margin-right: 4px;
+        margin-right: 12px;
       }
 
       .help-center {
         span {
           margin-left: 12px;
           font-size: 20px;
+
+          @include phone {
+            font-size: 16px;
+          }
         }
       }
     }
