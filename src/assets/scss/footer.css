@@ -10,7 +10,7 @@
   .footer {
     width: 375px;
     height: 120px;
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 .footer .contents-wrapper {
@@ -32,7 +32,7 @@
 }
 @media (max-width: 480px) {
   .footer .contents-wrapper .company-info {
-    margin-right: 12px;
+    margin-right: 8px;
   }
 }
 .footer .contents-wrapper .company-info .help-center span {
